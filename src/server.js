@@ -3,16 +3,13 @@ import ReactDOM from 'react-dom/server'
 import createHistory from 'history/createMemoryHistory'
 import { flushChunkNames } from 'react-universal-component/server'
 import flushChunks from 'webpack-flush-chunks'
-import regeneratorRuntime from 'regenerator-runtime'
 import App from './components/App'
 import loadMessages from './loadMessages'
 
-export default ({ clientStats }) => async (req, res) => {
+export default ({ clientStats }) => (req, res) => {
   const history = createHistory({ initialEntries: [req.path] })
   const LANG = 'en'
-
-  // const messages = require(`./messages/${LANG}`).default
-  const messages = await loadMessages(LANG)
+  const messages = loadMessages(LANG)
 
   const app = ReactDOM.renderToString(
     <App history={history} messages={messages} />
