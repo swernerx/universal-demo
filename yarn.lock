@@ -4639,9 +4639,9 @@ react-proxy@^3.0.0-alpha.0:
   dependencies:
     lodash "^4.6.1"
 
-react-universal-component@^2.3.5:
-  version "2.3.5"
-  resolved "https://registry.yarnpkg.com/react-universal-component/-/react-universal-component-2.3.5.tgz#e2993af57201dd42d65e079e4583686af99728e4"
+react-universal-component@^2.4.0:
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/react-universal-component/-/react-universal-component-2.4.0.tgz#27c927e4e72645f724ca4b086240c4a6f331a426"
   dependencies:
     hoist-non-react-statics "^2.2.1"
 
@@ -5843,9 +5843,9 @@ webpack-dev-middleware@^1.12.0:
     range-parser "^1.0.3"
     time-stamp "^2.0.0"
 
-webpack-flush-chunks@^1.1.20:
-  version "1.1.20"
-  resolved "https://registry.yarnpkg.com/webpack-flush-chunks/-/webpack-flush-chunks-1.1.20.tgz#bd324bc0b0a273a044c3c4ff97770582fbae0547"
+webpack-flush-chunks@^1.1.21:
+  version "1.1.21"
+  resolved "https://registry.yarnpkg.com/webpack-flush-chunks/-/webpack-flush-chunks-1.1.21.tgz#d2dcb4db5de14baee1b10485cfd07dbdd67ce8b2"
 
 webpack-hot-middleware@^2.18.2:
   version "2.18.2"

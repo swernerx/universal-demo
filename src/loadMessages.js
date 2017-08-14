@@ -11,8 +11,6 @@ export default function loadMessages(lang) {
     return wrapped.then(msgs => msgs.default)
   }
 
-  const chunkName = wrapped.chunkName()
-  CHUNK_NAMES.push(chunkName) // AND DONE! HURRAY!
-
+  CHUNK_NAMES.add(wrapped.chunkName())
   return __webpack_require__(wrapped.resolve(lang)).default
 }
