@@ -4639,9 +4639,9 @@ react-proxy@^3.0.0-alpha.0:
   dependencies:
     lodash "^4.6.1"
 
-react-universal-component@^2.3.4:
-  version "2.3.4"
-  resolved "https://registry.yarnpkg.com/react-universal-component/-/react-universal-component-2.3.4.tgz#f610c5d786e6f7469112c7542a66051a2092fe00"
+react-universal-component@^2.3.5:
+  version "2.3.5"
+  resolved "https://registry.yarnpkg.com/react-universal-component/-/react-universal-component-2.3.5.tgz#e2993af57201dd42d65e079e4583686af99728e4"
   dependencies:
     hoist-non-react-statics "^2.2.1"
 
